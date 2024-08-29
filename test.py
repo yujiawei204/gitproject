@@ -1,5 +1,5 @@
-# from socket import *
-#
+from socket import *
+
 # sockfd = socket(AF_INET, SOCK_STREAM)
 #
 # sockfd.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)
@@ -35,5 +35,7 @@ s = 1723737600
 c_date = datetime.fromtimestamp(s)
 
 print(c_date)
+
+print("github 修改")
 
 
